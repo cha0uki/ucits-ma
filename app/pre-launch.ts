@@ -12,7 +12,7 @@ dotenv.config()
 const secretName = process.env.SECRET_NAME
 
 const client = new SecretsManagerClient({
-  region: 'eu-west-3',
+  region: 'us-east-1',
 })
 
 let response
