@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install -g serverless
+          npm install -g serverless@3.25.0
 
       - name: Deploy Lambdas
         run: serverless deploy
